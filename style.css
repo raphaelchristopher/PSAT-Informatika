@@ -1,0 +1,157 @@
+body {
+	background-color: #FFBF00;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #FFDB00;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.logo {
+	color: white;
+	cursor: pointer;
+}
+
+.logo:hover {
+	color: red;
+	transform: scale(1.2);
+	transition: all ease .5s;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul {
+	list-style: none;
+	padding-right: 30px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #whitesmoke;
+	padding-right: 20px;
+}
+
+nav li a:hover {
+	color: #whitesmoke;
+	text-decoration: underline;
+	text-underline-offset:8px; 	
+}
+
+.title-hero h1,p {
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.image-hero img {
+	display: block;
+	width: 25%;
+	margin: 0 auto;
+	border-radius: 200px;
+	box-shadow: 2px 4px 10px greenyellow;
+}
+
+.image-hero img:hover {
+	transform: scale(.8);
+	transition: 1.5s;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr
+	gap: 10px;
+}
+
+hr {
+	width: 90%;
+}
+
+#menu {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#menu h2 {
+	padding-top: 40px;
+	color: #FFB534
+}
+
+.cards {
+	background-color: #FF9A00;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.card {
+	padding: 30px;
+	width: 240px;
+	border: 1px solid whitesmoke;
+	text-align: center;
+}
+
+.card img {
+	width: 100%
+}
+
+.card img:hover {
+	transform: scale(1.1);
+	transition: .3s;
+}
+
+.container {
+	text-align: center;
+}
+
+.card a {
+	text-decoration: none;
+	color: whitesmoke;
+	border: 1px solid green;
+	padding: 12px 30px;
+	border-radius: 12px;
+	box-shadow: 1px 2px 4px;
+	background-color: greenyellow;
+	text-align: center;
+}
+
+.card a:hover{
+	background-color: green;
+	color: whitesmoke;
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+#contact {
+	width: 95%;
+	margin: 40px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.image-contact {
+	width: 50%;
+}
+
+.image-contact img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+footer {
+	width: 95%
+	margin:60px auto;
+	color: whitesmoke;
+}
